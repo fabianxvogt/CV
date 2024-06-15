@@ -1,0 +1,47 @@
+[
+    {
+        "name": "HARTING Foundation & Co.KG",
+        "shortName": "HARTING", 
+        "homepage": "https://www.harting.com/",
+        "location": {
+            "name": "Espelkamp",
+            "link": "https://maps.app.goo.gl/B7JX2o6LhcuC2o2G6"
+        } 
+    },
+    {
+        "name": "Mittwald CM Service GmbH & Co.KG",
+        "shortName": "Mittwald", 
+        "homepage": "https://www.mittwald.de/",
+        "location": {
+            "name": "Espelkamp",
+            "link": "https://maps.app.goo.gl/SjrBEd8eb6Vr9xie6"
+        } 
+    },
+    {
+        "name": "SIEMENS SI",
+        "shortName": "SIEMENS", 
+        "homepage": "https://www.siemens.com/",
+        "location": {
+            "name": "Berlin",
+            "link": "https://maps.app.goo.gl/nJjotCuyY7Bh5baUA"
+        } 
+    },
+    {
+        "name": "SAP SE",
+        "shortName": "SAP", 
+        "homepage": "https://www.sap.com/",
+        "location": {
+            "name": "Berlin",
+            "link": "https://maps.app.goo.gl/jBZqMKChmN6QzZ5CA"
+        } 
+    },
+    {
+        "name": "Enpal B.V.",
+        "shortName": "Enpal", 
+        "homepage": "https://www.enpal.de/",
+        "location": {
+            "name": "Berlin",
+            "link": "https://maps.app.goo.gl/kgeG5KxJZn48j5aj8"
+        } 
+    }
+]

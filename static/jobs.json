@@ -1,0 +1,68 @@
+[
+    {
+        "employer_id": 0,
+        "from": "05/2012",
+        "until": "06/2012",
+        "team": "RFID Team",
+        "description": "Pupil internship in RFID technology"
+    },
+    {
+        "employer_id": 1,
+        "from": "07/2015",
+        "until": "08/2015",
+        "team": "UX/UI Design",
+        "description": "Internship in web design"
+    },
+    {
+        "employer_id": 0,
+        "from": "08/2015",
+        "until": "02/2018",
+        "team": "Materials Management",
+        "description": "Apprenticeship in software engineering (application development)"
+    },
+    {
+        "employer_id": 0,
+        "from": "02/2018",
+        "until": "09/2018",
+        "team": "Materials Management",
+        "description": "Full-time employment as SAP developer"
+    },
+    {
+        "employer_id": 0,
+        "from": "03/2019",
+        "until": "07/2020",
+        "team": "Cloud Team",
+        "description": "Working student job as software developer",
+        "location": {
+            "name": "Berlin"
+        } 
+    },
+    {
+        "employer_id": 2,
+        "from": "11/2020",
+        "until": "05/2022",
+        "team": "Special Projects",
+        "description": "Working student job as software developer"
+    },
+    {
+        "employer_id": 3,
+        "from": "06/2022",
+        "until": "09/2023",
+        "team": "Sustainability-Innovation-Engagement (SIE)",
+        "description": "Working Student job as full-stack software developer"
+    },
+    {
+        "employer_id": 4,
+        "from": "10/2023",
+        "until": "12/2023",
+        "team": "Customer Portal Team",
+        "description": "Full-time employment as backend software engineer"
+    },
+    {
+        "employer_id": 3,
+        "from": "01/2024",
+        "until": "now",
+        "team": "Sustainability/Product-Compliance (PC)",
+        "description": "Full-stack developer in ABAP, Fiori and Python"
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Languages"
+    },
+    {
+        "name": "Programming languages"
+    },
+    {
+        "name": "Software engineering concepts"
+    },
+    {
+        "name": "Project management"
+    },
+    {
+        "name": "Machine learning (ML)"
+    },
+    {
+        "name": "Web development<br>frameworks"
+    },
+    {
+        "name": "Mobile development<br>frameworks"
+    },
+    {
+        "name": "SAP ecosystem"
+    },
+    {
+        "name": "Databases"
+    },
+    {
+        "name": "Containerization"
+    },
+    {
+        "name": "Continuous<br>delivery"
+    },
+    {
+        "name": "Data visualization /<br>reporting"
+    },
+    {
+        "name": "Cryptography /<br>Blockchain"
+    }
+]

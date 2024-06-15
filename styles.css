@@ -1,0 +1,50 @@
+body {
+    margin: 0; /* Remove default margin */
+    padding: 20px; /* Add padding for better visibility */
+    position: relative; /* Set the body as a relative position */
+}
+header {
+    text-align: center;
+}
+section {
+    margin-top: 20px; /* Add margin to separate sections */
+    align-items: center;
+    width: 100%;
+}
+img {
+    position: absolute;
+    top: 20px; /* Adjust the top position */
+    right: 20px; /* Adjust the right position */
+}
+.h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: '#603F11';
+    font-size: 22px;
+}
+.h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: '#603F11';
+    font-size: 18px;
+}
+.cv_table {
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: auto;
+}
+#infoTable{
+    margin: 0 auto;
+}
+th, td {
+    padding: 2px;
+    width: 180px;
+}
+td {
+    text-align: start;
+    font-family: 'Roboto', sans-serif;
+    line-height: auto;
+    vertical-align: middle; 
+    font-size: 9pt;
+}
+.col30 {
+    width: 30%;
+}

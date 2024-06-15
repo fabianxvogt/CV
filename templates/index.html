@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <style>
+        html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+        body {
+            margin: 0; /* Remove default margin */
+            padding: 20px; /* Add padding for better visibility */
+            position: relative; /* Set the body as a relative position */
+
+        }
+        header {
+            text-align: center;
+        }
+        section {
+            margin-top: 20px; /* Add margin to separate sections */
+            width: 100%;
+            text-align: center;
+            align-items: center;
+        }
+
+        .h1 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #603F11;
+            font-size: 36px;
+        }
+        .h2 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: #603F11;
+            font-size: 30px;
+        }
+        .cv_table {
+            margin-left: auto;
+            margin-right: auto;
+            table-layout: auto;
+        }
+        #infoTable{
+            margin: 0 auto;
+        }
+
+        .col7 {
+            width: 7%;
+        }
+        .col15 {
+            width: 15%;
+        }
+        .col25 {
+            width: 27%;
+        }
+        table {
+            table-layout: auto;
+            width: 100%;
+        }
+        table .absorbing-column {
+            width: 100%;
+        }
+        table, th, td {
+            border: 1px solid #603F11;
+            border-collapse: collapse;
+        }
+        th {
+            background-color: #B4C6E7;
+            font-size: 18px;
+        }
+
+        th, td {
+            padding: 5px;
+            width: 180px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        td {
+            text-align: start;
+            font-family: 'Roboto', sans-serif;
+            vertical-align: middle; 
+            font-size: 16px;
+            line-height: auto;
+            height: auto;
+        }
+        .subitem {
+            font-size: 13px;
+        }
+        #education, #work, #skills, #projects{
+            width: 1000px;
+        }
+
+        .table_subheader {
+            background-color: #153B5B;
+            color: white;
+            font-style: italic;
+            border-top: 3px solid white;
+            border-collapse: collapse;
+            overflow: hidden;
+            max-width: 50px;
+            min-height: fit-content;
+            align-items: flex-start;
+            justify-content: flex-start;
+            justify-items: flex-start;
+            padding: 10px;
+        }
+
+        .table_subheader_inner {
+            writing-mode: vertical-rl;
+            text-align: center;
+            margin:0;
+            vertical-align: middle;
+            transform: rotate(-180deg);
+            -webkit-transform: rotate(-180deg);
+            -moz-transform: rotate(-180deg);
+            display: inline-block;
+            align-self: flex-start;
+
+        }
+        .firstSkill {
+            border-top: 3px solid #603F11;
+        }
+
+        .rating {
+            color: #603F11;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="h1">curriculum vitae</h1>
+    </header>
+    <br>
+    <br>
+    <section id="contentSection">
+        <div style="width: 100%; display: flex; flex-direction:row; justify-content:center; vertical-align: middle;">
+            <div style="display: flex; flex-direction:row; width: 1000px; align-items: center; justify-content: space-between; vertical-align: middle;">
+                <div>
+                    <header>
+                        <h2 class="h2">personal data</h2>
+                    </header>
+                    <table id= "personal_data" class="">
+                        <tbody>
+            
+                        </tbody>
+                    </table>
+                </div>
+                <div>
+                    <img width="400" src="/static/me.jpg">
+
+                </div>
+                 
+            </div>
+        </div>
+        <br>
+        <br> 
+        <header>
+            <h2 class="h2">education</h2>
+        </header>
+        <table id="education" class="cv_table">
+            <tbody>
+                <tr>
+                    <th class="col7">From</th>
+                    <th class="col7">Until</th>
+                    <th class="col15">Location</th>
+                    <th class="col25">School</th>
+                    <th>Experience</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br> 
+        <header>
+            <h2 class="h2">work experience</h2>
+        </header>
+        <table id= "work" class="cv_table">
+            <tbody>
+                <tr>
+                    <th class="col7">From</th>
+                    <th class="col7">Until</th>
+                    <th class="col15">Location</th>
+                    <th class="col25">Company</th>
+                    <th>Experience</th>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <header>
+            <h2 class="h2">skills</h2>
+        </header>
+        <table id= "skills" class="cv_table">
+            <tbody>
+                <tr>
+                    <th class="col7">Type</th>
+                    <th class="col15">Skill</th>
+                    <th class="col25">Learned at</th>
+                    <th>Experience</th>
+                    <th class="col7">Rating</th>
+                </tr>
+            </tbody>
+        </table>
+        <header>
+            <h2 class="h2">github projects</h2>
+        </header>
+        <table id= "projects" class="cv_table">
+            <tbody>
+                <tr>
+                    <th class="col7">No</th>
+                    <th class="col15">Name</th>
+                    <th class="col15">Context</th>
+                    <th class="col15">Language</th>
+                    <th>Summary</th>
+                    <th class="col7">Rating</th>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+<script type="module">
+
+    import schools from './static/schools.json' assert { type: 'json' };
+    import graduations from './static/graduations.json' assert { type: 'json' };
+
+    import employers from './static/employers.json' assert { type: 'json' };
+    import jobs from './static/jobs.json' assert { type: 'json' };
+
+    import skill_categories from './static/skill_categories.json' assert { type: 'json' };
+    import skills from './static/skills.json' assert { type: 'json' };
+
+    import projects from './static/projects.json' assert { type: 'json' };
+
+    var note_counter = 0;
+
+    const addToFootnotes = function (text) {
+
+        var note_pos_start = text.indexOf("<note>")
+        var note_pos_end = text.indexOf("</note>")
+        if (note_pos_start == -1 || note_pos_end == -1) {
+            return text
+        }
+        var text_start = text.substring(0, note_pos_start)
+        var text_end = text.substring(note_pos_end + 7)
+        note_counter += 1
+        return text_start + "<a id='note-"+note_counter+"-ref' href='#note-"+note_counter+"'>["+note_counter+"]</a>"+text_end
+    }
+
+    const getDurationStr = function (durationMonths) {
+        if (durationMonths > 11) {
+            var unit = 'Year'
+            var value = Math.round(durationMonths/12 * 10) / 10
+        } else {
+            var unit = 'Month'
+            var value = durationMonths
+        }
+        if (value > 1) {
+            unit += 's'
+        }
+        return [value, unit].join(' ')
+    }
+    $(function() {
+        $.getJSON('/static/personal_data.json', function(data) {
+            $.each(data, function (key, val) {
+                var table_row = '<tr><th class="col25"><b>'+key+'</b></th><td>'+val+'</td></tr>'
+                $(table_row).appendTo("#personal_data tbody");
+            })
+        });
+
+        $.each(graduations, function (i, grad) {
+
+            var location = grad.location
+            var school = schools[grad.school_id]
+            if (location == null) {
+                location = school.location
+            }
+            if (location.link != null) {
+                location = '<a href="'+location.link+'">'+location.name+'</a>'
+            } else {
+                location = location.name
+            }
+            school = '<a href="'+school.homepage+'">'+school.name+'</a>'
+            var table_row = '<tr><td>'+grad.from+'</td><td>'+grad.until+'</td><td>'+location+'</td><td>'+school+'</td><td>'+grad.description+'</td></tr>'
+            $(table_row).appendTo("#education tbody")
+        });
+
+        $.each(jobs, function (i, job) {
+
+            var location = job.location
+            var company = employers[job.employer_id]
+            if (location == null) {
+                location = company.location
+            }
+            if (location.link != null) {
+                location = '<a href="'+location.link+'">'+location.name+'</a>'
+            } else {
+                location = location.name
+            }
+            company = '<a href="'+company.homepage+'">'+company.name+'</a><br><div class="subitem">'+job.team+'</div>'
+            var table_row = '<tr><td>'+job.from+'</td><td>'+job.until+'</td><td>'+location+'</td><td>'+company+'</td><td>'+job.description+'</td></tr>'
+            $(table_row).appendTo("#work tbody")
+        });
+
+        $.each(skill_categories, function (i, category) {
+            var category_skills = skills.filter(function(x) { return x.category == i; });
+            $('<tr><th rowspan="'+(category_skills.length+1)+'" class="table_subheader" ><div class="table_subheader_inner">'+category.name+'</div></th></tr>').appendTo("#skills tbody")
+            
+            var is_first_skill = true
+            $.each(category_skills, function (i, skill) {
+                var experiences_str = skill.experiences.join('<br>')
+                var rating = '⬤'.repeat(skill.rating) + '◯︎'.repeat(5 - skill.rating);
+
+                var learnedAtStrings = []
+                if (skill.learnedInSchools != undefined) {
+                    for (var learnedAt of skill.learnedInSchools) {
+                        learnedAtStrings.push(schools[learnedAt.school_id].shortName + ': ' + getDurationStr(learnedAt.durationMonths))
+                    } 
+                }
+                if (skill.learnedInJobs != undefined) {
+                    for (var learnedAt of skill.learnedInJobs) {
+                        learnedAtStrings.push(employers[learnedAt.employer_id].shortName + ': ' + getDurationStr(learnedAt.durationMonths))
+                    } 
+                }
+                var tr = '<tr>'
+                if (is_first_skill) {
+                    tr = '<tr class="firstSkill">'
+                    is_first_skill = false
+                }
+                var table_row = tr+'<td>'+skill.name+'</td><td>'+learnedAtStrings.join('<br>')+'</td><td>'+experiences_str+'</td><td class="rating">'+rating+'</td></tr>'
+                $(table_row).appendTo("#skills tbody")
+            });
+        });
+
+        $.each(projects, function (i, project) {
+            var summary = addToFootnotes(project.summary)
+            var table_row = '<tr><td>'+(i+1)+'</td><td>'+project.name+'</td><td>'+project.context+'</td><td>'+project.language+'</td><td>'+summary+'</td><td><a href="'+project.github+'">Github</a></td></tr>'
+            $(table_row).appendTo("#projects tbody")
+        });
+    });
+</script>
+
+</html>

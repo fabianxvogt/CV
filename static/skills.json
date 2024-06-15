@@ -1,0 +1,851 @@
+[
+    {
+        "name": "German",
+        "category": 0,
+        "experiences": ["Mother language"],
+        "rating": 5
+    },
+    {
+        "name": "English",
+        "category": 0,
+        "experiences": ["advanced course during Abitur", "experience earned by traveling"],
+        "rating": 4,
+        "learnedInSchools": [
+            {
+                "school_id": 1,
+                "durationMonths": 96
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 24
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 24
+            }
+        ]
+    },
+    {
+        "name": "French",
+        "category": 0,
+        "experiences": [],
+        "rating": 2,
+        "learnedInSchools": [
+            {
+                "school_id": 1,
+                "durationMonths": 24
+            }
+        ]
+    },
+    {
+        "name": "Python",
+        "category": 1,
+        "experiences": ["Python is my go-to language"],
+        "rating": 5,
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 6
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 24
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 6
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "Java",
+        "category": 1,
+        "experiences": ["Backend development for the HARTING online shop", "Building CAP-apps at SAP"],
+        "rating": 5,
+        "learnedInSchools": [
+            {
+                "school_id": 1,
+                "durationMonths": 12
+            },
+            {
+                "school_id": 3,
+                "durationMonths": 24
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 18
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 12
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "JavaScript",
+        "category": 1,
+        "experiences": ["Building CAP apps in JavaScript at SAP (SI)"],
+        "rating": 3,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 6
+            },
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "C#",
+        "category": 1,
+        "experiences": ["Backend API development at Enpal (see project no. 11)", "Mobile app development in Xamarin for HARTING and SIEMENS"],
+        "rating": 3,
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 12
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 6
+            },
+            {
+                "employer_id": 2,
+                "durationMonths": 9
+            },
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "C++",
+        "category": 1,
+        "experiences": ["Developing a 3D game in university (computer graphics) (see project no. 10)"],
+        "rating": 3,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "VBA",
+        "category": 1,
+        "experiences": [],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 9
+            },
+            {
+                "employer_id": 2,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "ABAP",
+        "category": 1,
+        "experiences": ["Developing programs for MM, SD and EWM at HARTING", "Building apps for Product Compliance at SAP"],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 39
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "Object-Oriented Programming (OOP)",
+        "category": 2,
+        "experiences": ["In all jobs, in university and apprenticeship"],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 30
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 24
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 30
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "Functional Programming",
+        "category": 2,
+        "experiences": ["In university and private projects"],
+        "rating": 3,
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "RESTful APIs & OData",
+        "category": 2,
+        "experiences": ["1 year at HARTING, 2 years at SAP", "During apprenticeship and in university (see project no. 6)"],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 12
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 24
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 6
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Unit testing / test driven development",
+        "category": 2,
+        "experiences": ["Testing my own code during apprenticeship and in university", "Writing tests for existing code at SAP"],
+        "rating": 4,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 6
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 6
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "Feature based engineering",
+        "category": 2,
+        "experiences": ["Defining requirements for specific feautures", "Releasing features independently"],
+        "rating": 4,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 12
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            },
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Github",
+        "category": 3,
+        "experiences": ["Managing my own repositories", "Working with multiple people on different branches"],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 6
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 24
+            },
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 6
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "SCRUM, Kanban",
+        "category": 3,
+        "experiences": ["Working in sprints", "Organizing tasks on a Kanban board"],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 36
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 24
+            },
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 6
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Jira",
+        "category": 3,
+        "experiences": ["At SAP, all tasks are organized via Jira"],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 30
+            },
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "Large Language Models (LLMs)",
+        "category": 4,
+        "experiences": ["Comparing capabilities of different LLMs (OpenAI vs Aleph Alpha vs Llama)", "Using LLMs to extract unstructured data from legal texts / to enrich data", "Utilizing Python packages for LLMs like LangChain and ChromaDB"],
+        "rating": 4,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Reinforcement Learning (RL)",
+        "category": 4,
+        "experiences": [
+            "Bachelor thesis: Detection and correction of errors in DNA sequences using RL (see project no. 1)", 
+            "Building RL-environments in OpenAI Gym (see project no. 5)", 
+            "Using RL-agents from the stable-baselines Python package"],
+        "rating": 4,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "Recurrent Neural Networks (RNNs)",
+        "category": 4,
+        "experiences": [
+            "Implementation of RNN and LSTM  from scratch in Python (see project no. 2)", 
+            "Building RL-environments in OpenAI Gym (see project no. 5)", 
+            "Using RL-agents from the stable-baselines Python package"],
+        "rating": 3,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Transformer",
+        "category": 4,
+        "experiences": [
+            "Implemented self-attention during study"
+        ],
+        "rating": 2,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Convolutional Neural Networks (CNNs)",
+        "category": 4,
+        "experiences": [
+            "Used for medical image recognition in university"
+        ],
+        "rating": 2,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "ML frameworks",
+        "category": 4,
+        "experiences": [
+            "Used PyTorch in several ML projects in university and in private",
+            "Used Tensorflow in university",
+            "Worked with and contributed to <a href='https://github.com/tinygrad/tinygrad'>tinygrad</a>"
+        ],
+        "rating": 2,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "React",
+        "category": 5,
+        "experiences": [
+            "Frontend development for the customer portal at Enpal"
+        ],
+        "rating": 3,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 4,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "Flask",
+        "category": 5,
+        "experiences": [
+            "Used for different projects in university",
+            "build a REST endpoint for a parsing service at SAP"
+        ],
+        "rating": 5,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "Spring Boot",
+        "category": 5,
+        "experiences": [
+            "Used for different projects in university",
+            "Spring Boot was integrated in CAP-projects at SAP"
+        ],
+        "rating": 4,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 12
+            }
+        ],
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Ruby on Rails",
+        "category": 5,
+        "experiences": [
+            "Used for a community web application at university (see project ??)"
+        ],
+        "rating": 2,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Xamarin Forms (.NET)",
+        "category": 6,
+        "experiences": [
+            "Product-scanner project at HARTING",
+            "NFC-scanner project at SIEMENS",
+            "Private shopping-app (see project ??)"
+        ],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 6
+            },
+            {
+                "employer_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Simplifier",
+        "category": 6,
+        "experiences": [
+            "Built an app for quality checks with certificate export at SIEMENS"
+        ],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 2,
+                "durationMonths": 9
+            }
+        ]
+    },
+    {
+        "name": "SAP UI5 / Fiori Elements",
+        "category": 7,
+        "experiences": [
+            "Building Fiori apps for both SAP teams (SI & PC)"
+        ],
+        "rating": 4,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 3
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "Cloud Application Programming (CAP)",
+        "category": 7,
+        "experiences": [
+            "Building prototypes of sustainability apps for SAP (SI)"
+        ],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 18
+            }
+        ]
+    },
+    {
+        "name": "RESTful Application Programming (RAP)",
+        "category": 7,
+        "experiences": [
+            "Building & maintaining backends for product compliance apps at SAP"
+        ],
+        "rating": 2,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "Business Technology Platform (BTP)",
+        "category": 7,
+        "experiences": [
+            "Setting up APIs, subaccounts, destinations, etc"
+        ],
+        "rating": 4,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 24
+            }
+        ]
+    },
+    {
+        "name": "HANA Datalake / HANA Studio",
+        "category": 7,
+        "experiences": [
+            "Developing a new data model at SIEMENS"
+        ],
+        "rating": 2,
+        "learnedInJobs": [
+            {
+                "employer_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "SQL (MS SQL, PostgreSQL, SQLite) ",
+        "category": 8,
+        "experiences": [
+            "In all jobs, during apprenticeship and in university"
+        ],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 0,
+                "durationMonths": 12
+            },
+            {
+                "employer_id": 2,
+                "durationMonths": 9
+            },
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 3,
+                "durationMonths": 12
+            },
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "NoSQL (MongoDB, Firebase)",
+        "category": 8,
+        "experiences": [
+            "In university and in private projects (see projects ??, ?? and ??)"
+        ],
+        "rating": 4,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 6
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Docker",
+        "category": 9,
+        "experiences": [
+            "Used a lot when working with Java projects"
+        ],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 6
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Kubernetes",
+        "category": 9,
+        "experiences": [
+        ],
+        "rating": 1,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Virtual Environments",
+        "category": 9,
+        "experiences": [
+            "Using virtual environments for all of my Python projects"
+        ],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ],
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Jenkins",
+        "category": 10,
+        "experiences": [
+            "Setting up a deployment pipeline for one of my own projects at SAP"
+        ],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 12
+            }
+        ]
+    },
+    {
+        "name": "GitLab",
+        "category": 10,
+        "experiences": [
+        ],
+        "rating": 2,
+        "learnedInSchools": [
+            {
+                "school_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Grafana",
+        "category": 11,
+        "experiences": [
+        ],
+        "rating": 5,
+        "learnedInJobs": [
+            {
+                "employer_id": 2,
+                "durationMonths": 9
+            }
+        ]
+    },
+    {
+        "name": "Power BI",
+        "category": 11,
+        "experiences": [
+        ],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 2,
+                "durationMonths": 6
+            }
+        ]
+    },
+    {
+        "name": "Tableau",
+        "category": 11,
+        "experiences": [
+        ],
+        "rating": 2,
+        "learnedInJobs": [
+            {
+                "employer_id": 2,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "Self-Sovereign-Identity (SSI) ",
+        "category": 12,
+        "experiences": [
+            "We used SSI at SAP to establish trust between suppliers and customers"
+        ],
+        "rating": 3,
+        "learnedInJobs": [
+            {
+                "employer_id": 3,
+                "durationMonths": 3
+            }
+        ]
+    },
+    {
+        "name": "Plutus Smart-Contracts on the Cardano Blockchain (Haskell)",
+        "category": 12,
+        "experiences": [
+            "I enrolled in the Plutus pioneer program"
+        ],
+        "rating": 1
+    }
+]

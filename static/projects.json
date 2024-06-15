@@ -1,0 +1,18 @@
+[
+    {
+        "project_id": 0,
+        "name": "CV Generator",
+        "context": "Private",
+        "language": "Python, Javascript",
+        "summary": "Where this CV was generated.",
+        "github": ""
+    },
+    {
+        "project_id": 1,
+        "name": "Bachelor Thesis",
+        "context": "University",
+        "language": "Python",
+        "summary": "Training of a Reinforcement Learning agent to detect and correct errors (base-flips) in DNA sequences. Used DNA encoding of DNABERT<note>0</note> model.",
+        "github": ""
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "graduation_id": 0,
+        "school_id": 0,
+        "from": "2003",
+        "until": "2007",
+        "description": "The basics"
+    },
+    {
+        "graduation_id": 1,
+        "school_id": 1,
+        "from": "2007",
+        "until": "2015",
+        "description": "Abitur"
+    },
+    {
+        "graduation_id": 2,
+        "school_id": 3,
+        "from": "08/2015",
+        "until": "02/2018",
+        "description": "Apprenticeship in software engineering (application development)"
+    },
+    {
+        "graduation_id": 3,
+        "school_id": 2,
+        "from": "04/2019",
+        "until": "03/2023",
+        "description": "Bachelor studies 'Applied Computer Science' with focus on health informatics and machine learning"
+    }
+]

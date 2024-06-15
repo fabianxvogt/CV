@@ -1,0 +1,42 @@
+[
+    {
+        "school_id": 0,
+        "name": "Primary school",
+        "shortName": "Primary school",
+        "homepage": "http://www.gspro.education/",
+        "location": {
+            "name": "Preußisch Oldendorf",
+            "link": "https://maps.app.goo.gl/oM7jKTwibxGFHqgo9"
+        } 
+    },
+    {
+        "school_id": 1,
+        "name": "Wittekind grammar school",
+        "shortName": "Grammar school",
+        "homepage": "https://www.wittekind.de/",
+        "location": {
+            "name": "Lübbecke",
+            "link": "https://maps.app.goo.gl/9gkjn4zuSBUH8kE9A"
+        } 
+    },
+    {
+        "school_id": 2,
+        "name": "University of Applied Sciences (HTW) Berlin",
+        "shortName": "University",
+        "homepage": "https://www.htw-berlin.de/",
+        "location": {
+            "name": "Berlin",
+            "link": "https://maps.app.goo.gl/Y7NdvndQajvcMurp8"
+        } 
+    },
+    {
+        "school_id": 3,
+        "name": "Vocational school",
+        "shortName": "Vocational school", 
+        "homepage": "https://bk-lk.de/",
+        "location": {
+            "name": "Lübbecke",
+            "link": "https://maps.app.goo.gl/GAC7BWEhXMQnSjWq7"
+        } 
+    }
+]
